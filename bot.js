@@ -54,12 +54,12 @@ client.on('message', message => {
     message.channel.send('message.author.avatarURL');
   }
 
-  if (msg.content === 'sa') {
-    msg.reply('Aleyküm Selam, Hoşgeldin');
+  if (message.content === 'sa') {
+    message.reply('Aleyküm Selam, Hoşgeldin');
   }
 
-  if (msg.content === 'hoşbuldum') {
-    msg.reply('Nasılsın?');
+  if (message.content === 'hoşbuldum') {
+    message.reply('Nasılsın?');
   }
 
   if (message.content === 'vei!reboot') {
